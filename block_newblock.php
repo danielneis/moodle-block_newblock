@@ -74,7 +74,7 @@ class block_newblock extends block_base {
                      'course-view' => true, 
                      'course-view-social' => false,
                      'mod' => true, 
-                     'mod-quiz' => false
+                     'mod-quiz' => false);
     }
 
     public function instance_allow_multiple() {
