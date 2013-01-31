@@ -17,7 +17,8 @@ all the instances of the string "newblock" to your module name
 $ find . -type f -exec sed -i 's/newblock/widget/g' {} \;
 
 * Rename the file lang/en/newblock.php to lang/en/widget.php
-where "widget" is the name of your module
+where "widget" is the name of your module. Also rename block_newblock.php
+in the main directory to block_widget.php
 
 * Place the widget folder into the /block folder of the moodle
 directory.
