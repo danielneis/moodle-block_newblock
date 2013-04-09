@@ -31,8 +31,11 @@ class block_newblock extends block_base {
     }
 
     function get_content() {
-
         global $CFG, $OUTPUT;
+
+        if ($this->content !== null) {
+            return $this->content;
+        }
 
         if (empty($this->instance)) {
             $this->content = '';
