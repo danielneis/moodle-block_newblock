@@ -1,0 +1,18 @@
+{
+    "name": "danielneis/moodle-block_newblock",
+    "description": "A block template for Moodle based on http://docs.moodle.org/dev/Blocks",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Daniel Neis Araujo",
+            "email": "danielneis@gmail.com"
+        }
+    ],
+    "type": "moodle-block",
+    "require": {
+      "composer/installers": "~1.0"
+    },
+    "extra": {
+      "installer-name": "newblock"
+    }
+}
