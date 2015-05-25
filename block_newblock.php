@@ -59,7 +59,7 @@ class block_newblock extends block_base {
             return $this->content;
         }
         if ($this->page->course->id == SITEID) {
-            $this->context->text .= "site context";
+            $this->content->text .= "site context";
         }
 
         if (! empty($this->config->text)) {
