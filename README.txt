@@ -23,6 +23,8 @@ in the main directory to block_widget.php
 * Place the widget folder into the /block folder of the moodle
 directory.
 
+* This template assumes that the block is using a textual content type by default. If you want your block to display a list of items (using $this->content->items and $this->content->icons instead of $this->content->text), change the derived class of the block, from extends block_base to extends block_list. For more information: https://docs.moodle.org/dev/Blocks#Additional_Content_Types.
+
 * Go to Settings > Site Administration > Development > XMLDB editor
 and modify the module's tables.
 
